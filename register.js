@@ -19,3 +19,5 @@ register.onclick = () => {
     // Save users
     window.users.push(user)
 }
+
+console.log(window.users);

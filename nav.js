@@ -20,4 +20,6 @@ toUsers.onclick = () => {
     usersSection.classList.remove('hide')
     loginSection.classList.add('hide')
     registerSection.classList.add('hide')
+    
+    window.showUsers()
 }
